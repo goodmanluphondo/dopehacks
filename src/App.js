@@ -32,15 +32,16 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <p>Enter a number you do not have on your phonebook and do not want to save, a message (optional) and start chatting.</p>
           <form onSubmit={this.doSubmit}>
-            <label>
+            <p>
               Number:
               <input type="text" name="number" value={this.state.number} onChange={this.doNumberChange} />
-            </label>
-            <label>
+            </p>
+            <p>
               Message (Optional):
               <input type="text" name="message" value={this.state.message} onChange={this.doMessageChange} />
-            </label>
+            </p>
             <input type="submit" value="Start Chatting" />
           </form>
         </header>
