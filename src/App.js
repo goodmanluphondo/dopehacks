@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      number: '27761888182',
+      number: '+27',
       message: 'Hi there'
     };
     this.doSubmit = this.doSubmit.bind(this);
